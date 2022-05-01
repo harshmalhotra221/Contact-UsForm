@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  /* position: absolute; */
+height: 900px;
+left: 0px;
+top: 0px;
+  background-image: radial-gradient(136.74% 134.62% at 136.74% -29.44%,#027C89 0%, #6D4650 100%)
+
+ /* radial-gradient(136.74% 134.62% at 136.74% -29.44%, #027C89 0%, #6D4650 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;  
+/* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+#form-reactangle {
+
+  height: 900px;
+  margin-top: 0%;
+  margin-left: 120%;
+  border-radius: 1px;
+  background: white;
+  border-radius: 7%;
+}
+
+.Main-Group{
+  display: flex;
+}
+
+.design-container{
+  width: 35vw;
+}
+
+.Group-1{
+  width: 55vw;
+
+}
+
+.button-submit{
+  background-image: radial-gradient(136.74% 134.62% at 136.74% -29.44%,#027C89 0%, #6D4650 100%);
+  position: absolute;
+width: 201px;
+height: 72px;
+left: 1163px;
+top: 874px;
+}
+
+button:type{
+  font-family: 'Aladin';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+/* input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid coral;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+} */
+
+.input-name{
+  position: absolute;
+width: 699px;
+height: 83px;
+left: 714px;
+top: 216px;
+}
+.input-email{
+  position: absolute;
+width: 699px;
+height: 83px;
+left: 714px;
+top: 336px;
+}
+.input-topic{
+  position: absolute;
+width: 699px;
+height: 83px;
+left: 714px;
+top: 470px;
+}
+.input-message{
+  
+position: absolute;
+width: 699px;
+height: 219px;
+left: 714px;
+top: 604px;
+}
+
+
+
+
+
+
+/* textarea{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid coral;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+} */
+
+button{
+  background-image: radial-gradient(136.74% 134.62% at 136.74% -29.44%,#027C89 0%, #6D4650 100%)
+}
+
+.button{
+  background-image: radial-gradient(136.74% 134.62% at 136.74% -29.44%,#027C89 0%, #6D4650 100%)
+}
+
+/* .Main-Group{
+  position: absolute;
+width: 500px;
+height: 599.82px;
+left: 33px;
+top: 460.73px;
+
+background: url(#05.png);
+/* transform: rotate(-25.18deg); */
+
+  /* width:fit-content; */
+  /* background-image: url(https://i.postimg.cc/13jKCvkY/05.png);  */
+  /* width:70%;
+  height: 70%; */
+/* } */ 
+
+
+
+//image
+{/* <div className="Main-image" style={{position: 'absolute',
+width: '500px',
+height: '599.82px',
+left: '33px',
+top: '460.73p',
+transform: 'rotate(-25.18deg)',
+backgroundImage: 'url(https://i.postimg.cc/13jKCvkY/05.png)'}}>
+</div> */}
+

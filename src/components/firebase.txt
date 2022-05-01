@@ -1,0 +1,307 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyC8cAy2inA68h32W02Zja34G-ylt0r3FZM",
+  authDomain: "contactus-f19c3.firebaseapp.com",
+  projectId: "contactus-f19c3",
+  storageBucket: "contactus-f19c3.appspot.com",
+  messagingSenderId: "917819189787",
+  appId: "1:917819189787:web:cf2bbd0c0986b1134d26be"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+
+import firebase from 'firebase/compat/app';
+//import 'firebase/compat/auth';
+import 'firebase/compat/storage';
+import 'firebase/compat/firestore';
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyC8cAy2inA68h32W02Zja34G-ylt0r3FZM",
+  authDomain: "contactus-f19c3.firebaseapp.com",
+  projectId: "contactus-f19c3",
+  storageBucket: "contactus-f19c3.appspot.com",
+  messagingSenderId: "917819189787",
+  appId: "1:917819189787:web:cf2bbd0c0986b1134d26be"
+};
+
+// Initialize Firebase
+// firebase.initializeApp(firebaseConfig);
+
+// export const auth = firebase.auth();
+
+const firestore = firebase.firestore();
+// export const database = {
+//     name : firestore.collection('name'),
+//     email : firestore.collection('email'),
+//     topic : firestore.collection('topic'),
+//     message : firestore.collection('message'),
+//     // getTimeStamp : firebase.firestore.FieldValue.serverTimestamp,
+// }
+const firebaseApp = initializeApp(firebaseConfig);
+const database = getFirestore({
+  name : firestore.collection('name'),
+  email : firestore.collection('email'),
+  topic : firestore.collection('topic'),
+  message : firestore.collection('message'),
+});
+
+https://i.postimg.cc/13jKCvkY/05.png
+export const storage = firebase.storage()
+
+https://i.postimg.cc/13jKCvkY/05.png
+
+
+
+//css
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 100%;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.5)50%,rgba(0,0,0,0.5)50%);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+.navbar{
+width:1200px;
+height:75px;
+margin:auto;   
+}
+.icon{
+  width:200px;
+  float:left;
+  height:70px;
+}
+.logo {
+  
+  color:lightsalmon;
+  font-size: 36px;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px; 
+  
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+  color:coral;
+}
+.search {
+width: 321px;
+float: left;
+margin-left: 279px;
+margin-right: 0px;
+}
+.srch {
+font-family: Georgia, 'Times New Roman', Times, serif;
+width: 221px;
+height: 37px;
+background: transparent;
+border: 1px solid;
+border: 1px solid purple;
+margin-top: 14px;
+color: white;
+border-right: none;
+font-size: 16px;
+float: left;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-top-left-radius:5px;
+}
+.btn{
+  width: 100px;
+  height: 40px;
+  background:tomato;
+  border:2px solid tomato;
+  margin-top: 13px;
+  color:white;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+
+}
+.search .btn:hover{
+  background: chocolate;
+}
+.btn:focus{
+  outline: none;
+}
+.srch:focus{
+  outline: none;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+.content .Par{
+padding-left: 20px;
+padding-bottom: 25px;
+font-family: Arial;
+letter-spacing: 1.2px;
+line-height: 30px;
+}
+.content h1 {
+  font-family: 'Times New Roman';
+  font-size: 42px;
+  padding-left: 21px;
+  margin-top: 9%;
+  letter-spacing: 3px;
+}
+.content h1 span{
+  color: coral;
+}
+.content .cn{
+width: 102px;
+height: 40px;
+background: coral;
+border: none;
+margin-bottom: 10px;
+margin-left: 20px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+transition: .4s ease;
+}
+.content .cn a{
+  text-decoration: none;
+color: #000;
+transition: .3s ease;
+}
+.cn:hover{
+  background: white;
+  
+}
+.form{
+  width: 250px;
+  height: 380px;
+  border-radius: 7%;
+  /* background: linear-gradient(to top,rgba(0, 0, 0, 0.801)50%,rgba(0, 0, 0, 0.801)50%); */
+  background-color:rgb(105, 111, 112);
+  position: absolute;
+  top:-20px;
+  left: 870px;
+  border: radius 10px;
+  padding: 25px;
+  margin-left:8rem;
+}
+.form h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: coral;
+  font-size: 22px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+.form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid coral;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.form input:focus{
+  outline: none;
+
+}
+
+::placeholder{
+  color: white;
+  font-family: Arial;
+}
+.btnn{
+width: 240px;
+height: 40px;
+background:lightpink;
+border:none;
+margin-top: 30px;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+}
+.btnn:hover{
+  background: white;
+  color: coral;
+}
+.btnn a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.form .link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+.form .link a{
+  text-decoration: none;
+  color: coral;
+
+}
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.icons a{
+  text-decoration: none;
+  color: white;
+
+}
+.icons ion-icon{
+  color: white;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+  color:coral;
+}
+
+
